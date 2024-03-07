@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login page</string>
+    <string name="loginText">Login</string>
+    <string name="RegText">Registreren</string>
+    <string name="loginTextButton">Login</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Home">Homepage</string>
+    <string name="Reg">Registreren</string>
+</resources>
