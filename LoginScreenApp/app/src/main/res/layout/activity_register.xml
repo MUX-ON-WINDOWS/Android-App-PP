@@ -37,7 +37,7 @@
                 android:inputType="text"
                 android:padding="8dp"
                 android:background="@drawable/inputfield"
-                android:textColor="@color/darkgrey" />
+                android:textColor="@color/darkgrey_textColor" />
 
             <EditText
                 android:id="@+id/passwordReg"
@@ -45,13 +45,13 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
                 android:autofillHints="name"
-                android:drawableEnd="@drawable/eyepass"
+                android:drawableEnd="@drawable/eye_password"
                 android:drawablePadding="8dp"
                 android:hint="@string/Password"
                 android:inputType="textPassword"
                 android:padding="8dp"
                 android:background="@drawable/inputfield"
-                android:textColor="@color/darkgrey"/>
+                android:textColor="@color/darkgrey_textColor"/>
 
             <EditText
                 android:id="@+id/checkpass"
@@ -59,13 +59,13 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
                 android:autofillHints="name"
-                android:drawableEnd="@drawable/eyepass"
+                android:drawableEnd="@drawable/eye_password"
                 android:drawablePadding="8dp"
                 android:hint="@string/Password"
                 android:inputType="textPassword"
                 android:padding="8dp"
                 android:background="@drawable/inputfield"
-                android:textColor="@color/darkgrey"/>
+                android:textColor="@color/darkgrey_textColor"/>
 
             <Button
                 android:layout_width="match_parent"
