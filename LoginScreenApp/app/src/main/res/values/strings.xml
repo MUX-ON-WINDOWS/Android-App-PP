@@ -1,10 +1,15 @@
 <resources>
     <string name="app_name">Login page</string>
+    <string name="Home">Homepage</string>
+<!--Text Login page-->
     <string name="loginText">Login</string>
-    <string name="RegText">Registreren</string>
     <string name="loginTextButton">Login</string>
     <string name="Username">Username</string>
     <string name="Password">Password</string>
-    <string name="Home">Homepage</string>
-    <string name="Reg">Registreren</string>
+    <string name="loginSuptext">Not a member? Register now</string>
+
+<!--Text Register page-->
+    <string name="RegText">Create account</string>
+    <string name="submitReg">Sign In</string>
+    <string name="registerSuptext">Already have an account? Login here</string>
 </resources>

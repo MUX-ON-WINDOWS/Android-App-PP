@@ -18,8 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     fun registerButton (view: View) {
-        val intent = Intent(this, RegisterActivity::class.java)
-        startActivity(intent)
+        startActivity(Intent(this, RegisterActivity::class.java))
     }
 
     fun loginButton(view: View) {
@@ -35,8 +34,7 @@ class MainActivity : AppCompatActivity() {
         for (user in users) {
             if (passField == user.password && userField == user.username) {
                 Toast.makeText(this, "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, HomepageActivity::class.java)
-                startActivity(intent)
+                startActivity(Intent(this, HomepageActivity::class.java))
             } else {
                 Toast.makeText(this, "LOGIN FAILED", Toast.LENGTH_SHORT).show()
             }

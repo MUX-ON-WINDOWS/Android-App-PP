@@ -13,7 +13,9 @@ class RegisterActivity : AppCompatActivity() {
     }
     fun regAccountButton(view: View) {
         Toast.makeText(this, "Account aangemaakt", Toast.LENGTH_SHORT).show()
-        val accountMade = Intent(this, MainActivity::class.java)
-        startActivity(accountMade)
+        startActivity(Intent(this, MainActivity::class.java))
+    }
+    fun toLoginPage (view: View) {
+        startActivity(Intent(this, MainActivity::class.java))
     }
 }
